@@ -1,0 +1,122 @@
+body {
+    background-image: linear-gradient(#c296a9, #94bbe9);
+    background-repeat: no-repeat;
+    /* background-size: 100vw; */
+    height: 150vh;
+}
+@font-face {
+    font-family: 'Reboto', sans-serif;
+    src: url(font/Roboto-Bold.ttf);
+}
+
+  /* RESET CSS */
+  *{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   img{
+    width: 20%;
+    height: auto;
+} 
+
+/* RODAPE */
+.container{
+    display: flex;
+   margin:  200px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.titulo{
+    color: rgba(233, 229, 229, 0.926);
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 20px;
+    background-color: #eab2ca;
+    margin: 60px 60px;
+}
+
+#cabeçalho{
+    background-color: #233933;
+    height: 100px;
+    width: 100%;
+    font-family:'Reboto', sans-serif; 
+}
+
+/* formas */
+.formas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.tudoforma{
+     background: #e5bfcf; 
+    border: 1px solid #000000;
+    text-align: center;
+    height: 280px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 30px 20px;
+    margin-top: -60px;
+    user-select: none;
+    cursor: pointer;
+    transition: background 1s;
+}
+.tudoforma:hover{
+    background: #c9a2b3;
+}
+@media screen and (max-width: 768px) {
+    .formas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .container{
+        display: flex;
+       margin:  200px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       flex-wrap: wrap;
+    }
+    .titulo{
+        color: rgba(233, 229, 229, 0.926);
+        text-align: center;
+        align-items: center;
+        padding: 10px;
+        font-size: 50px;
+        border-radius: 20px;
+        background-color: #eab2ca;
+        margin: 60px 60px;
+    }
+    
+    #cabeçalho{
+        background-color: #233933;
+        height: 100px;
+        width: 100%;
+        font-family:'Reboto', sans-serif; 
+    }
+    .tudoforma{
+        background: #e5bfcf; 
+       border: 1px solid #000000;
+       text-align: center;
+       height: 280px;
+       width: 250px;
+       border-radius: 10px;
+       margin: 0 10px;
+       padding: 30px 20px;
+       margin-top: -60px;
+       user-select: none;
+       cursor: pointer;
+       transition: background 1s;
+   }
+}
