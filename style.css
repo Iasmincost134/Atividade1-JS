@@ -23,12 +23,9 @@ body {
 
 /* RODAPE */
 .container{
-    display: flex;
-   margin:  200px;
+    margin:  40px 0; 
    display: flex;
-   justify-content: space-between;
-   align-items: center;
-   flex-wrap: wrap;
+   
 }
 .titulo{
     color: rgba(233, 229, 229, 0.926);
@@ -38,7 +35,7 @@ body {
     font-size: 50px;
     border-radius: 20px;
     background-color: #eab2ca;
-    margin: 60px 60px;
+    margin: 60px;
 }
 
 #cabeçalho{
@@ -51,9 +48,11 @@ body {
 /* formas */
 .formas{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
+    flex-wrap: wrap;
+
 }
 
 .tudoforma{
@@ -63,12 +62,12 @@ body {
     height: 280px;
     width: 250px;
     border-radius: 10px;
-    margin: 0 10px;
+    margin:  70px 80px -10px ;
     padding: 30px 20px;
-    margin-top: -60px;
     user-select: none;
     cursor: pointer;
     transition: background 1s;
+
 }
 .tudoforma:hover{
     background: #c9a2b3;
