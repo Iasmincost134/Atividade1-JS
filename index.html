@@ -3,44 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Festa Junina - Sorteio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="calculo.js"></script>
 </head>
 <body>
-            <header> <h1 class="titulo">CALCULANDO VOLUME</h1></header> 
+    
+        <!-- cabeçalho -->
+       <section class="cabecalho">
+    <div class="container">
+        <h2 class="nome">SORTEIO DE FESTA JUNINA</h2>
         
-        <!-- formas -->
-        <sction class="formas">
-            <div class="container">
-                <div class="formas">
-                    <div onclick="Chamacilindro()" class="tudoforma">
-        <div class="img">
-            <img src="img/cilindro.png" alt="" class="formas">
+        <!-- sorteio -->
+    </section>
+    <div class="img">
+        <img src="img/bandeirinhas-festa-junina-menino-3.png" alt="">
+   </div>
+        <div class="entradas">
+            <div class="entrada">
+                <label class="titulo" for="min">Mínimo:</label>
+                <input type="number" id="min" name="min">
+            </div>
+            <div class="entrada">
+                <label class="titulo" for="max">Máximo:</label>
+                <input type="number" id="max" name="max">
+            </div>
+            <div class="sorteio">
+                <img src="img/selo1x.png" alt="" >
+            </div>
         </div>
-        <p class="nome">CILINDRO</p></div>
-        <div onclick="Chamacone()" class="tudoforma">
-        <div class="img">
-            <img src="img/cone.png" alt="" class="formas">
+        <button id="sortear">Sortear</button>
+        <div id="resultado">
         </div>
-        <p class="nome">CONE</p></div>
-        <div onclick="ChamaEsfera()" class="tudoforma">
-        <div class="img">
-            <img src="img/esfera.png" alt="" class="formas">
-        </div>
-        <p class="nome">ESFERA</p></div>
-        <div onclick="ChamaParalelepipedo()" class="tudoforma">
-        <div class="img">
-            <img src="img/paralelepipedo.png" alt="" class="formas">
-        </div>
-        <p class="nome">PARALELEPIPEDO</p></div>
-        <div onclick="ChamaPiramede()" class="tudoforma">
-        <div class="img">
-            <img src="img/piramide.png" alt="" class="formas">
-        </div>
-        <p class="nome">PIRAMEDE</p></div>
     </div>
-    </div>
-</sction>
+    <!-- rodape -->
+    <footer class="footer">
+        <img src="img/fogueira.png" alt="" class="festa">
+        <div class="container">
+            <div class="informacoes">
+                <div class="textrodape">
+                    <h1 class="sobre">Sorteio</h1>
+                    <h1 class="sobre">Sobre nós</h1>
+                    <h1 class="sobre">Ajuda</h1>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
